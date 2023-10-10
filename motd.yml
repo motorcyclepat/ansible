@@ -1,0 +1,5 @@
+  - hosts: ansible_tower
+    user: patrick
+    gather_facts: no
+    tasks:
+    - shell: echo 'test'
